@@ -1,0 +1,382 @@
+@{
+    ViewData["Title"] = "Recliners Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @ViewBag.Name</h1>
+   
+</div>
+
+
+ <title>Online Shopping Store - Recliners</title>
+    
+    <body>
+<section class="Recliners">
+        <div id="site">
+            <div class="container">
+                <div class="title-box">
+                    <h2>Recliners</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="product-top">
+                            <img src="../images/products/R1.jpg">
+                            <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-eye"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                    <i class="fa fa-heart-o"></i>
+                                </button>
+
+                                <!-- <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </button> -->
+                            </div>
+                        </div>
+
+
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <h3 style="font-family:'Poppins'; font-size: 20px;">2 Seater Recliner</h3>
+                            <div class="product-description" data-name="2 Seater Recliner" data-price="350">
+
+                                <p class="product-price" style="font-size: 20px">&dollar; 350</p>
+                                @* <form class="add-to-cart" action="cart.html" method="post"> *@
+                                   <form class="add-to-cart" asp-area="" asp-controller="Home" asp-action="cart" method="post"> 
+                                    <div>
+                                        <label for="qty-2">Quantity</label>
+                                       <input type="number" min="1" name="qty-2" id="qty-2" class="qty" value="1" />
+                                    </div>
+                                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <div class="product-top">
+                            <img src="../images/products/R2.jpg">
+                            <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-eye"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                    <i class="fa fa-heart-o"></i>
+                                </button>
+
+                                <!-- <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </button> -->
+                            </div>
+                        </div>
+
+
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <h3 style="font-family:'Poppins'; font-size: 20px;">2 Seater Motorized Recliner</h3>
+                            <div class="product-description" data-name="2 Seater Motorized Recliner" data-price="550">
+
+                                <p class="product-price" style="font-size:20px;">&dollar; 550</p>
+                                @* <form class="add-to-cart" action="cart.html" method="post"> *@
+                                   <form class="add-to-cart" asp-area="" asp-controller="Home" asp-action="cart" method="post"> 
+                                    <div>
+                                        <label for="qty-2">Quantity</label>
+                                        <input type="number" min="1" name="qty-2" id="qty-2" class="qty" value="1" />
+                                    </div>
+                                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-3">
+                        <div class="product-top">
+                            <img src="../images/products/R3.jpg">
+                            <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-eye"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                    <i class="fa fa-heart-o"></i>
+                                </button>
+
+                                <!-- <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </button> -->
+                            </div>
+                        </div>
+
+
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <h3 style="font-family:'Poppins'; font-size: 20px;">2 Seater Leather Recliner</h3>
+
+                            <div class="product-description" data-name="2 Seater Leather Recliner" data-price="570">
+
+                                <p class="product-price" style="font-size:20px;">&dollar; 570</p>
+                                @* <form class="add-to-cart" action="cart.html" method="post"> *@
+                                   <form class="add-to-cart" asp-area="" asp-controller="Home" asp-action="cart" method="post">  
+                                    <div>
+                                        <label for="qty-2">Quantity</label>
+                                        <input type="number" min="1" name="qty-2" id="qty-2" class="qty" value="1" />
+                                    </div>
+                                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-3">
+                        <div class="product-top">
+                            <img src="../images/products/R4.jpg">
+                            <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-eye"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                    <i class="fa fa-heart-o"></i>
+                                </button>
+
+                                <!-- <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </button> -->
+                            </div>
+                        </div>
+
+
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <h3 style="font-family:'Poppins'; font-size: 20px;">Single Leather recliner</h3>
+
+                            <div class="product-description" data-name="Single Leather recliner" data-price="450">
+
+                                <p class="product-price" style="font-size:20px;">&dollar; 450</p>
+                                @* <form class="add-to-cart" action="cart.html" method="post"> *@
+                                   <form class="add-to-cart" asp-area="" asp-controller="Home" asp-action="cart" method="post"> 
+                                    <div>
+                                        <label for="qty-2">Quantity</label>
+                                        <input type="number" min="1" name="qty-2" id="qty-2" class="qty" value="1" />
+                                    </div>
+                                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="product-top">
+                            <img src="../images/products/R5.jpg">
+                            <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-eye"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                    <i class="fa fa-heart-o"></i>
+                                </button>
+
+                                <!-- <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </button> -->
+                            </div>
+                        </div>
+
+
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <h3 style="font-family:'Poppins'; font-size: 20px;">Triple Leather Recliner</h3>
+
+                            <div class="product-description" data-name="Triple Leather Recliner" data-price="999">
+
+                                <p class="product-price" style="font-size:20px;">&dollar; 999</p>
+                                @* <form class="add-to-cart" action="cart.html" method="post"> *@
+                                   <form class="add-to-cart" asp-area="" asp-controller="Home" asp-action="cart" method="post">  
+                                    <div>
+                                        <label for="qty-2">Quantity</label>
+                                        <input type="number" min="1" name="qty-2" id="qty-2" class="qty" value="1" />
+                                    </div>
+                                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <div class="product-top">
+                            <img src="../images/products/R6.jpg">
+                            <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-eye"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                    <i class="fa fa-heart-o"></i>
+                                </button>
+
+                                <!-- <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </button> -->
+                            </div>
+                        </div>
+
+
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <h3 style="font-family:'Poppins'; font-size: 20px;">4 Seater Recliner</h3>
+
+                            <div class="product-description" data-name="4 Seater Recliner" data-price="990">
+
+                                <p class="product-price" style="font-size:20px;">&dollar; 990</p>
+                                @* <form class="add-to-cart" action="cart.html" method="post"> *@
+                                   <form class="add-to-cart" asp-area="" asp-controller="Home" asp-action="cart" method="post">  
+                                    <div>
+                                        <label for="qty-2">Quantity</label>
+                                        <input type="number" min="1" name="qty-2" id="qty-2" class="qty" value="1" />
+                                    </div>
+                                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-3">
+                        <div class="product-top">
+                            <img src="../images/products/R7.jpg">
+                            <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-eye"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                    <i class="fa fa-heart-o"></i>
+                                </button>
+
+                                <!-- <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </button> -->
+                            </div>
+                        </div>
+
+
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <h3 style="font-family:'Poppins'; font-size: 20px;">Theatre Single Recliner</h3>
+
+                            <div class="product-description" data-name="Theatre Single Recliner" data-price="500">
+
+                                <p class="product-price" style="font-size:20px;">&dollar; 500</p>
+                                @* <form class="add-to-cart" action="cart.html" method="post"> *@
+                                   <form class="add-to-cart" asp-area="" asp-controller="Home" asp-action="cart" method="post">  
+                                    <div>
+                                        <label for="qty-2">Quantity</label>
+                                        <input type="number" min="1" name="qty-2" id="qty-2" class="qty" value="1" />
+                                    </div>
+                                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-3">
+                        <div class="product-top">
+                            <img src="../images/products/R4.jpg">
+                            <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-eye"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                    <i class="fa fa-heart-o"></i>
+                                </button>
+
+                            </div>
+                        </div>
+
+
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <h3 style="font-family:'Poppins'; font-size: 20px;">Exec Recliner</h3>
+
+                            <div class="product-description" data-name="Exec Recliner" data-price="450">
+
+                                <p class="product-price" style="font-size:20px;">&dollar; 450</p>
+                                @* <form class="add-to-cart" action="cart.html" method="post"> *@
+                                   <form class="add-to-cart" asp-area="" asp-controller="Home" asp-action="cart" method="post">  
+                                    <div>
+                                        <label for="qty-2">Quantity</label>
+                                        <input type="number" min="1" name="qty-2" id="qty-2" class="qty" value="1" />
+                                    </div>
+                                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>  
+
+
+    </body>

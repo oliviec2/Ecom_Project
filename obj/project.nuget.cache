@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "h0vmzKnRY2rGh6T5vV+2rddCUbzSiFIBf20AYkDWsezq2Nv8Sht8K9HYCsXH3sqO4vDB5RH2jm01DI2ruEQ8UA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Ecom_Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lutchmr\\.nuget\\packages\\mysqlconnector\\0.61.0\\mysqlconnector.0.61.0.nupkg.sha512"
+  ],
+  "logs": []
+}
